@@ -1,0 +1,67 @@
+/*
+ *
+ *   Glitter - glitter.css v0.1
+ *
+ */
+
+#glitter{
+	width: 500px;
+	padding: 20px;
+	margin: 150px auto;
+
+	/* Don't change this line*/
+	position: relative;
+}
+
+#glitter div{
+	width: 100%;
+
+	/* Don't change these 4 lines*/
+	position: absolute;
+	opacity: 0;
+	left: 0;
+	top: 0;
+
+	text-align: center;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+#glitter div p{
+	text-align: center;
+}
+
+a#glitter-back{
+	display: inline-block;
+}
+
+a#glitter-next{
+	display: inline-block;
+}
+
+#panel{
+	margin: 0px auto;
+	background: #fff;
+	position: relative;
+	z-index: 9999;
+	padding: 20px;
+}
+
+#spanator{
+	margin: 0px auto;
+	text-align: center;
+	display: inline-block;
+}
+
+#spanator span{
+	width: 50px;
+	padding: 5px;
+}
+
+#spanator span.current{
+	background: #000;
+	color: #fff;
+}
