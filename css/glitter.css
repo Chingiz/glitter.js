@@ -34,15 +34,16 @@
 	text-align: center;
 }
 
-a#glitter-back{
+a #glitter-back{
 	display: inline-block;
 }
 
-a#glitter-next{
+a #glitter-next{
 	display: inline-block;
 }
 
 #panel{
+	width: 700px;
 	margin: 0px auto;
 	background: #fff;
 	position: relative;
@@ -57,7 +58,7 @@ a#glitter-next{
 }
 
 #spanator span{
-	width: 50px;
+	margin-left: 5px;
 	padding: 5px;
 }
 
